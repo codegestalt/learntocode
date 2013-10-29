@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kids</title>
+  <title>Learn to Code</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -9,8 +9,24 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="header one-whole">
+    <div class="logo one-half margin-auto">
+      <img>
+      <span>Learn to Code</span>
+    </div>
+  </div>
+  <div class="main one-whole">
+    <div class="wrapper">
+      <div class="inner">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+  <div class="footer one-whole">
+    <div class="wrapper">
+      <div class="inner">
+      </div>
+    </div>
+  </div>
 </body>
 </html>

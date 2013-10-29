@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 # Frontend
-gem 'compass-rails', github: "Compass/compass-rails", branch: "rails4-hack"
+gem "compass-rails", "~> 2.0.alpha.0"
 gem 'font-awesome-rails'
 
 group :doc do
