@@ -1,4 +1,3 @@
-Kids::Application.routes.draw do
-
+Learntocode::Application.routes.draw do
   root 'pages#home'
 end

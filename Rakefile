@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Kids::Application.load_tasks
+Learntocode::Application.load_tasks
