@@ -9,27 +9,9 @@
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-  <nav class="navigation one-whole">
-    <%= seiten_navigation %>
-  </nav>
-  <div class="header one-whole">
-    <div class="logo one-half margin-auto">
-      <img>
-      <span>Learn to Code</span>
-    </div>
-  </div>
-  <div class="main one-whole">
-    <div class="wrapper">
-      <div class="inner">
-        <%= yield %>
-      </div>
-    </div>
-  </div>
-  <div class="footer one-whole">
-    <div class="wrapper">
-      <div class="inner">
-      </div>
-    </div>
-  </div>
+  <%= render "layouts/navigation" %>
+  <%= render "layouts/header" %>
+  <%= render "layouts/main" %>
+  <%= render "layouts/footer" %>
 </body>
 </html>
