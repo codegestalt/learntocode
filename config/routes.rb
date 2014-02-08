@@ -1,3 +1,4 @@
 Learntocode::Application.routes.draw do
-  root 'pages#home'
+  root :to => "seiten/pages#show"
+  seiten_resources
 end

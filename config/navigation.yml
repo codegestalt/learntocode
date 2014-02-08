@@ -1,0 +1,8 @@
+- title: "Home"
+  root: true
+
+- title: "Angebot"
+- title: "Wer wir sind"
+  url: "uber-uns"
+- title: "Preise"
+- title: "Kontakt"

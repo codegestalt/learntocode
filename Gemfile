@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
+gem 'seiten'
 
 # Frontend
 gem "compass-rails", "~> 1.1.2"
