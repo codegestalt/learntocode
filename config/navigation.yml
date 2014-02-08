@@ -1,5 +1,6 @@
 - title: "Home"
   root: true
+  layout: "home"
 
 - title: "Philosophie"
 - title: "Angebot"
