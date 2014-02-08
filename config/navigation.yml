@@ -1,6 +1,7 @@
 - title: "Home"
   root: true
 
+- title: "Philosophie"
 - title: "Angebot"
 - title: "Wer wir sind"
   url: "uber-uns"
