@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
-  def home
+
+  def sitemap
+    @pages = Seiten::Page.all
   end
 end
