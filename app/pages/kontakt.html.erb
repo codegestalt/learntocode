@@ -1,18 +1,12 @@
-<h1 class="heading-l">Kontakt</h1>
-<div class="cf">
+<div class="mtl cf contact">
   <div class="one-half left">
-	<h2 class="heading-m">E-Mail</h2>
-	<p>
-        <%= link_to "mailto:info@learntocode.ch" do %>
-          <%= image_tag "mailbox.png" %>
-        <% end %>
-	</p>
-</div>
-<div class="one-half right">
-<h2 class="heading-m">Telefon</h2>
-<p>
-    <%= image_tag "phone2.png" %>
-    <br>
-	+41 79 820 42 28
-</p>
+      <%= link_to "mailto:info@learntocode.ch", class: "" do %>
+        <%= image_tag "mailbox.png", class: "center-image" %>
+      <% end %>
+      <p class="annotation email">Schicke uns eine E-Mail an:<br> <strong>info@learntocode.ch</strong></p>
+  </div>
+  <div class="one-half right">
+      <%= image_tag "phone2.png", class: "center-image" %>
+      <p class="annotation phone">Kontaktiere uns direkt unter der Nummer: <br><strong>079 820 42 28</strong></p>
+  </div>
 </div>
