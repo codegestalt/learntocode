@@ -3,12 +3,16 @@
   <div class="one-half left">
 	<h2 class="heading-m">E-Mail</h2>
 	<p>
-		<a href="mailto:info@learntocode.ch">info@learntocode.ch</a>	
+        <%= link_to "mailto:info@learntocode.ch" do %>
+          <%= image_tag "mailbox.png" %>
+        <% end %>
 	</p>
 </div>
 <div class="one-half right">
 <h2 class="heading-m">Telefon</h2>
 <p>
+    <%= image_tag "phone2.png" %>
+    <br>
 	+41 79 820 42 28
 </p>
 </div>
